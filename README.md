@@ -13,9 +13,7 @@
   <img src="./images/pokemons/150.gif" alt="Mewtwo" width="140" />
 </p>
 
-A bilingual Pokédex web app (Portuguese + English) with PWA support, local Kanto data, local sprites, and language-aware audio.
-
-## English
+A bilingual Pokédex web app (Brazilian Portuguese + English) with PWA support, local Kanto data, local sprites, and language-aware audio.
 
 ### Features
 - Full Pokédex layout (left/right on desktop, left only on mobile).
@@ -52,39 +50,26 @@ A bilingual Pokédex web app (Portuguese + English) with PWA support, local Kant
 2. Serve the project with any static server.
 3. Open the app in your browser.
 
-## Português (BR)
+### Open Source
 
-### Funcionalidades
-- Interface para Pokédex completa (esquerda/direita no desktop, apenas esquerda no mobile).
-- Toggle de idioma (`Português` / `English`) com atualização dinâmica dos textos.
-- Responsividade mobile para controles, labels e botões.
-- Suporte a PWA (manifest + service worker + splash).
-- Sprites da 1ª geração (`001..151`) são locais em `images/pokemons`.
-- `data/kanto-151.json` armazena os dados locais de Kanto.
-- Sistema de áudio usa pastas por idioma com fallbacks padrão.
+## Contributing
 
-### Estratégia de Dados
-- Para Pokémon `1..151`:
-  - O app tenta dados locais primeiro em `data/kanto-151.json`.
-  - Se o item local estiver ausente/quebrado, faz fallback para [PokéAPI](https://pokeapi.co/).
-- Para Pokémon `152+`:
-  - O app usa PokéAPI como fonte padrão.
+1. Fork this repo and create a branch from `main` (`feat/...` or `fix/...`).
+2. Run locally (`python3 -m http.server 8080`) and validate:
+   - navigation
+   - language toggle
+   - audio fallback
+   - PWA behavior
+3. For new audio generation, use ElevenLabs Text to Speech with:
+   - Voice: `Little Dude II - Cartoon Character`
+   - Model: `Eleven Turbo v2.5`
+   - Speed: `0.87`
+   - Stability: `70%`
+   - Similarity: `70%`
+   - Always enable `Language Override` and select `English` or `Portuguese`.
+4. Open a focused PR with:
+   - clear description
+   - screenshots for UI changes
+   - no unrelated changes
 
-### Estrutura de Áudio
-- Pasta principal de áudio em português: `audios/ptbr`
-- Pasta principal de áudio em inglês: `audios/en`
-- Ordem de fallback da reprodução:
-1. `audios/{idioma}/{id}.mp3`
-2. `audios/{idioma}/default-{idioma}.mp3`
-3. `audios/{outro-idioma}/{id}.mp3`
-4. `audios/{outro-idioma}/default-{outro-idioma}.mp3`
-
-### Observações de PWA
-- O app pode ser instalado como PWA standalone.
-- O service worker cacheia app shell + `kanto-151.json` + sprites locais de Kanto.
-- O splash/loading usa fundo azul e Pokébola centralizada.
-
-### Como Rodar Localmente
-1. Clone este repositório.
-2. Sirva o projeto com qualquer servidor estático.
-3. Abra o app no navegador.
+- This project is available as open source under the terms of the [MIT License](https://opensource.org/license/MIT).
