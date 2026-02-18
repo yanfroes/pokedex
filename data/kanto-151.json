@@ -1,0 +1,761 @@
+{
+  "region": "kanto",
+  "count": 151,
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "bulbasaur",
+      "sprite": "./images/pokemons/001.gif"
+    },
+    {
+      "id": 2,
+      "name": "ivysaur",
+      "sprite": "./images/pokemons/002.gif"
+    },
+    {
+      "id": 3,
+      "name": "venusaur",
+      "sprite": "./images/pokemons/003.gif"
+    },
+    {
+      "id": 4,
+      "name": "charmander",
+      "sprite": "./images/pokemons/004.gif"
+    },
+    {
+      "id": 5,
+      "name": "charmeleon",
+      "sprite": "./images/pokemons/005.gif"
+    },
+    {
+      "id": 6,
+      "name": "charizard",
+      "sprite": "./images/pokemons/006.gif"
+    },
+    {
+      "id": 7,
+      "name": "squirtle",
+      "sprite": "./images/pokemons/007.gif"
+    },
+    {
+      "id": 8,
+      "name": "wartortle",
+      "sprite": "./images/pokemons/008.gif"
+    },
+    {
+      "id": 9,
+      "name": "blastoise",
+      "sprite": "./images/pokemons/009.gif"
+    },
+    {
+      "id": 10,
+      "name": "caterpie",
+      "sprite": "./images/pokemons/010.gif"
+    },
+    {
+      "id": 11,
+      "name": "metapod",
+      "sprite": "./images/pokemons/011.gif"
+    },
+    {
+      "id": 12,
+      "name": "butterfree",
+      "sprite": "./images/pokemons/012.gif"
+    },
+    {
+      "id": 13,
+      "name": "weedle",
+      "sprite": "./images/pokemons/013.gif"
+    },
+    {
+      "id": 14,
+      "name": "kakuna",
+      "sprite": "./images/pokemons/014.gif"
+    },
+    {
+      "id": 15,
+      "name": "beedrill",
+      "sprite": "./images/pokemons/015.gif"
+    },
+    {
+      "id": 16,
+      "name": "pidgey",
+      "sprite": "./images/pokemons/016.gif"
+    },
+    {
+      "id": 17,
+      "name": "pidgeotto",
+      "sprite": "./images/pokemons/017.gif"
+    },
+    {
+      "id": 18,
+      "name": "pidgeot",
+      "sprite": "./images/pokemons/018.gif"
+    },
+    {
+      "id": 19,
+      "name": "rattata",
+      "sprite": "./images/pokemons/019.gif"
+    },
+    {
+      "id": 20,
+      "name": "raticate",
+      "sprite": "./images/pokemons/020.gif"
+    },
+    {
+      "id": 21,
+      "name": "spearow",
+      "sprite": "./images/pokemons/021.gif"
+    },
+    {
+      "id": 22,
+      "name": "fearow",
+      "sprite": "./images/pokemons/022.gif"
+    },
+    {
+      "id": 23,
+      "name": "ekans",
+      "sprite": "./images/pokemons/023.gif"
+    },
+    {
+      "id": 24,
+      "name": "arbok",
+      "sprite": "./images/pokemons/024.gif"
+    },
+    {
+      "id": 25,
+      "name": "pikachu",
+      "sprite": "./images/pokemons/025.gif"
+    },
+    {
+      "id": 26,
+      "name": "raichu",
+      "sprite": "./images/pokemons/026.gif"
+    },
+    {
+      "id": 27,
+      "name": "sandshrew",
+      "sprite": "./images/pokemons/027.gif"
+    },
+    {
+      "id": 28,
+      "name": "sandslash",
+      "sprite": "./images/pokemons/028.gif"
+    },
+    {
+      "id": 29,
+      "name": "nidoran-f",
+      "sprite": "./images/pokemons/029.gif"
+    },
+    {
+      "id": 30,
+      "name": "nidorina",
+      "sprite": "./images/pokemons/030.gif"
+    },
+    {
+      "id": 31,
+      "name": "nidoqueen",
+      "sprite": "./images/pokemons/031.gif"
+    },
+    {
+      "id": 32,
+      "name": "nidoran-m",
+      "sprite": "./images/pokemons/032.gif"
+    },
+    {
+      "id": 33,
+      "name": "nidorino",
+      "sprite": "./images/pokemons/033.gif"
+    },
+    {
+      "id": 34,
+      "name": "nidoking",
+      "sprite": "./images/pokemons/034.gif"
+    },
+    {
+      "id": 35,
+      "name": "clefairy",
+      "sprite": "./images/pokemons/035.gif"
+    },
+    {
+      "id": 36,
+      "name": "clefable",
+      "sprite": "./images/pokemons/036.gif"
+    },
+    {
+      "id": 37,
+      "name": "vulpix",
+      "sprite": "./images/pokemons/037.gif"
+    },
+    {
+      "id": 38,
+      "name": "ninetales",
+      "sprite": "./images/pokemons/038.gif"
+    },
+    {
+      "id": 39,
+      "name": "jigglypuff",
+      "sprite": "./images/pokemons/039.gif"
+    },
+    {
+      "id": 40,
+      "name": "wigglytuff",
+      "sprite": "./images/pokemons/040.gif"
+    },
+    {
+      "id": 41,
+      "name": "zubat",
+      "sprite": "./images/pokemons/041.gif"
+    },
+    {
+      "id": 42,
+      "name": "golbat",
+      "sprite": "./images/pokemons/042.gif"
+    },
+    {
+      "id": 43,
+      "name": "oddish",
+      "sprite": "./images/pokemons/043.gif"
+    },
+    {
+      "id": 44,
+      "name": "gloom",
+      "sprite": "./images/pokemons/044.gif"
+    },
+    {
+      "id": 45,
+      "name": "vileplume",
+      "sprite": "./images/pokemons/045.gif"
+    },
+    {
+      "id": 46,
+      "name": "paras",
+      "sprite": "./images/pokemons/046.gif"
+    },
+    {
+      "id": 47,
+      "name": "parasect",
+      "sprite": "./images/pokemons/047.gif"
+    },
+    {
+      "id": 48,
+      "name": "venonat",
+      "sprite": "./images/pokemons/048.gif"
+    },
+    {
+      "id": 49,
+      "name": "venomoth",
+      "sprite": "./images/pokemons/049.gif"
+    },
+    {
+      "id": 50,
+      "name": "diglett",
+      "sprite": "./images/pokemons/050.gif"
+    },
+    {
+      "id": 51,
+      "name": "dugtrio",
+      "sprite": "./images/pokemons/051.gif"
+    },
+    {
+      "id": 52,
+      "name": "meowth",
+      "sprite": "./images/pokemons/052.gif"
+    },
+    {
+      "id": 53,
+      "name": "persian",
+      "sprite": "./images/pokemons/053.gif"
+    },
+    {
+      "id": 54,
+      "name": "psyduck",
+      "sprite": "./images/pokemons/054.gif"
+    },
+    {
+      "id": 55,
+      "name": "golduck",
+      "sprite": "./images/pokemons/055.gif"
+    },
+    {
+      "id": 56,
+      "name": "mankey",
+      "sprite": "./images/pokemons/056.gif"
+    },
+    {
+      "id": 57,
+      "name": "primeape",
+      "sprite": "./images/pokemons/057.gif"
+    },
+    {
+      "id": 58,
+      "name": "growlithe",
+      "sprite": "./images/pokemons/058.gif"
+    },
+    {
+      "id": 59,
+      "name": "arcanine",
+      "sprite": "./images/pokemons/059.gif"
+    },
+    {
+      "id": 60,
+      "name": "poliwag",
+      "sprite": "./images/pokemons/060.gif"
+    },
+    {
+      "id": 61,
+      "name": "poliwhirl",
+      "sprite": "./images/pokemons/061.gif"
+    },
+    {
+      "id": 62,
+      "name": "poliwrath",
+      "sprite": "./images/pokemons/062.gif"
+    },
+    {
+      "id": 63,
+      "name": "abra",
+      "sprite": "./images/pokemons/063.gif"
+    },
+    {
+      "id": 64,
+      "name": "kadabra",
+      "sprite": "./images/pokemons/064.gif"
+    },
+    {
+      "id": 65,
+      "name": "alakazam",
+      "sprite": "./images/pokemons/065.gif"
+    },
+    {
+      "id": 66,
+      "name": "machop",
+      "sprite": "./images/pokemons/066.gif"
+    },
+    {
+      "id": 67,
+      "name": "machoke",
+      "sprite": "./images/pokemons/067.gif"
+    },
+    {
+      "id": 68,
+      "name": "machamp",
+      "sprite": "./images/pokemons/068.gif"
+    },
+    {
+      "id": 69,
+      "name": "bellsprout",
+      "sprite": "./images/pokemons/069.gif"
+    },
+    {
+      "id": 70,
+      "name": "weepinbell",
+      "sprite": "./images/pokemons/070.gif"
+    },
+    {
+      "id": 71,
+      "name": "victreebel",
+      "sprite": "./images/pokemons/071.gif"
+    },
+    {
+      "id": 72,
+      "name": "tentacool",
+      "sprite": "./images/pokemons/072.gif"
+    },
+    {
+      "id": 73,
+      "name": "tentacruel",
+      "sprite": "./images/pokemons/073.gif"
+    },
+    {
+      "id": 74,
+      "name": "geodude",
+      "sprite": "./images/pokemons/074.gif"
+    },
+    {
+      "id": 75,
+      "name": "graveler",
+      "sprite": "./images/pokemons/075.gif"
+    },
+    {
+      "id": 76,
+      "name": "golem",
+      "sprite": "./images/pokemons/076.gif"
+    },
+    {
+      "id": 77,
+      "name": "ponyta",
+      "sprite": "./images/pokemons/077.gif"
+    },
+    {
+      "id": 78,
+      "name": "rapidash",
+      "sprite": "./images/pokemons/078.gif"
+    },
+    {
+      "id": 79,
+      "name": "slowpoke",
+      "sprite": "./images/pokemons/079.gif"
+    },
+    {
+      "id": 80,
+      "name": "slowbro",
+      "sprite": "./images/pokemons/080.gif"
+    },
+    {
+      "id": 81,
+      "name": "magnemite",
+      "sprite": "./images/pokemons/081.gif"
+    },
+    {
+      "id": 82,
+      "name": "magneton",
+      "sprite": "./images/pokemons/082.gif"
+    },
+    {
+      "id": 83,
+      "name": "farfetchd",
+      "sprite": "./images/pokemons/083.gif"
+    },
+    {
+      "id": 84,
+      "name": "doduo",
+      "sprite": "./images/pokemons/084.gif"
+    },
+    {
+      "id": 85,
+      "name": "dodrio",
+      "sprite": "./images/pokemons/085.gif"
+    },
+    {
+      "id": 86,
+      "name": "seel",
+      "sprite": "./images/pokemons/086.gif"
+    },
+    {
+      "id": 87,
+      "name": "dewgong",
+      "sprite": "./images/pokemons/087.gif"
+    },
+    {
+      "id": 88,
+      "name": "grimer",
+      "sprite": "./images/pokemons/088.gif"
+    },
+    {
+      "id": 89,
+      "name": "muk",
+      "sprite": "./images/pokemons/089.gif"
+    },
+    {
+      "id": 90,
+      "name": "shellder",
+      "sprite": "./images/pokemons/090.gif"
+    },
+    {
+      "id": 91,
+      "name": "cloyster",
+      "sprite": "./images/pokemons/091.gif"
+    },
+    {
+      "id": 92,
+      "name": "gastly",
+      "sprite": "./images/pokemons/092.gif"
+    },
+    {
+      "id": 93,
+      "name": "haunter",
+      "sprite": "./images/pokemons/093.gif"
+    },
+    {
+      "id": 94,
+      "name": "gengar",
+      "sprite": "./images/pokemons/094.gif"
+    },
+    {
+      "id": 95,
+      "name": "onix",
+      "sprite": "./images/pokemons/095.gif"
+    },
+    {
+      "id": 96,
+      "name": "drowzee",
+      "sprite": "./images/pokemons/096.gif"
+    },
+    {
+      "id": 97,
+      "name": "hypno",
+      "sprite": "./images/pokemons/097.gif"
+    },
+    {
+      "id": 98,
+      "name": "krabby",
+      "sprite": "./images/pokemons/098.gif"
+    },
+    {
+      "id": 99,
+      "name": "kingler",
+      "sprite": "./images/pokemons/099.gif"
+    },
+    {
+      "id": 100,
+      "name": "voltorb",
+      "sprite": "./images/pokemons/100.gif"
+    },
+    {
+      "id": 101,
+      "name": "electrode",
+      "sprite": "./images/pokemons/101.gif"
+    },
+    {
+      "id": 102,
+      "name": "exeggcute",
+      "sprite": "./images/pokemons/102.gif"
+    },
+    {
+      "id": 103,
+      "name": "exeggutor",
+      "sprite": "./images/pokemons/103.gif"
+    },
+    {
+      "id": 104,
+      "name": "cubone",
+      "sprite": "./images/pokemons/104.gif"
+    },
+    {
+      "id": 105,
+      "name": "marowak",
+      "sprite": "./images/pokemons/105.gif"
+    },
+    {
+      "id": 106,
+      "name": "hitmonlee",
+      "sprite": "./images/pokemons/106.gif"
+    },
+    {
+      "id": 107,
+      "name": "hitmonchan",
+      "sprite": "./images/pokemons/107.gif"
+    },
+    {
+      "id": 108,
+      "name": "lickitung",
+      "sprite": "./images/pokemons/108.gif"
+    },
+    {
+      "id": 109,
+      "name": "koffing",
+      "sprite": "./images/pokemons/109.gif"
+    },
+    {
+      "id": 110,
+      "name": "weezing",
+      "sprite": "./images/pokemons/110.gif"
+    },
+    {
+      "id": 111,
+      "name": "rhyhorn",
+      "sprite": "./images/pokemons/111.gif"
+    },
+    {
+      "id": 112,
+      "name": "rhydon",
+      "sprite": "./images/pokemons/112.gif"
+    },
+    {
+      "id": 113,
+      "name": "chansey",
+      "sprite": "./images/pokemons/113.gif"
+    },
+    {
+      "id": 114,
+      "name": "tangela",
+      "sprite": "./images/pokemons/114.gif"
+    },
+    {
+      "id": 115,
+      "name": "kangaskhan",
+      "sprite": "./images/pokemons/115.gif"
+    },
+    {
+      "id": 116,
+      "name": "horsea",
+      "sprite": "./images/pokemons/116.gif"
+    },
+    {
+      "id": 117,
+      "name": "seadra",
+      "sprite": "./images/pokemons/117.gif"
+    },
+    {
+      "id": 118,
+      "name": "goldeen",
+      "sprite": "./images/pokemons/118.gif"
+    },
+    {
+      "id": 119,
+      "name": "seaking",
+      "sprite": "./images/pokemons/119.gif"
+    },
+    {
+      "id": 120,
+      "name": "staryu",
+      "sprite": "./images/pokemons/120.gif"
+    },
+    {
+      "id": 121,
+      "name": "starmie",
+      "sprite": "./images/pokemons/121.gif"
+    },
+    {
+      "id": 122,
+      "name": "mr-mime",
+      "sprite": "./images/pokemons/122.gif"
+    },
+    {
+      "id": 123,
+      "name": "scyther",
+      "sprite": "./images/pokemons/123.gif"
+    },
+    {
+      "id": 124,
+      "name": "jynx",
+      "sprite": "./images/pokemons/124.gif"
+    },
+    {
+      "id": 125,
+      "name": "electabuzz",
+      "sprite": "./images/pokemons/125.gif"
+    },
+    {
+      "id": 126,
+      "name": "magmar",
+      "sprite": "./images/pokemons/126.gif"
+    },
+    {
+      "id": 127,
+      "name": "pinsir",
+      "sprite": "./images/pokemons/127.gif"
+    },
+    {
+      "id": 128,
+      "name": "tauros",
+      "sprite": "./images/pokemons/128.gif"
+    },
+    {
+      "id": 129,
+      "name": "magikarp",
+      "sprite": "./images/pokemons/129.gif"
+    },
+    {
+      "id": 130,
+      "name": "gyarados",
+      "sprite": "./images/pokemons/130.gif"
+    },
+    {
+      "id": 131,
+      "name": "lapras",
+      "sprite": "./images/pokemons/131.gif"
+    },
+    {
+      "id": 132,
+      "name": "ditto",
+      "sprite": "./images/pokemons/132.gif"
+    },
+    {
+      "id": 133,
+      "name": "eevee",
+      "sprite": "./images/pokemons/133.gif"
+    },
+    {
+      "id": 134,
+      "name": "vaporeon",
+      "sprite": "./images/pokemons/134.gif"
+    },
+    {
+      "id": 135,
+      "name": "jolteon",
+      "sprite": "./images/pokemons/135.gif"
+    },
+    {
+      "id": 136,
+      "name": "flareon",
+      "sprite": "./images/pokemons/136.gif"
+    },
+    {
+      "id": 137,
+      "name": "porygon",
+      "sprite": "./images/pokemons/137.gif"
+    },
+    {
+      "id": 138,
+      "name": "omanyte",
+      "sprite": "./images/pokemons/138.gif"
+    },
+    {
+      "id": 139,
+      "name": "omastar",
+      "sprite": "./images/pokemons/139.gif"
+    },
+    {
+      "id": 140,
+      "name": "kabuto",
+      "sprite": "./images/pokemons/140.gif"
+    },
+    {
+      "id": 141,
+      "name": "kabutops",
+      "sprite": "./images/pokemons/141.gif"
+    },
+    {
+      "id": 142,
+      "name": "aerodactyl",
+      "sprite": "./images/pokemons/142.gif"
+    },
+    {
+      "id": 143,
+      "name": "snorlax",
+      "sprite": "./images/pokemons/143.gif"
+    },
+    {
+      "id": 144,
+      "name": "articuno",
+      "sprite": "./images/pokemons/144.gif"
+    },
+    {
+      "id": 145,
+      "name": "zapdos",
+      "sprite": "./images/pokemons/145.gif"
+    },
+    {
+      "id": 146,
+      "name": "moltres",
+      "sprite": "./images/pokemons/146.gif"
+    },
+    {
+      "id": 147,
+      "name": "dratini",
+      "sprite": "./images/pokemons/147.gif"
+    },
+    {
+      "id": 148,
+      "name": "dragonair",
+      "sprite": "./images/pokemons/148.gif"
+    },
+    {
+      "id": 149,
+      "name": "dragonite",
+      "sprite": "./images/pokemons/149.gif"
+    },
+    {
+      "id": 150,
+      "name": "mewtwo",
+      "sprite": "./images/pokemons/150.gif"
+    },
+    {
+      "id": 151,
+      "name": "mew",
+      "sprite": "./images/pokemons/151.gif"
+    }
+  ]
+}

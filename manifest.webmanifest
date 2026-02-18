@@ -1,0 +1,25 @@
+{
+  "name": "Pokedex App",
+  "short_name": "Pokedex",
+  "description": "A bilingual Pokédex with audio and offline support.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#1976d2",
+  "theme_color": "#1976d2",
+  "icons": [
+    {
+      "src": "./favicons/pokeball.png",
+      "sizes": "727x727",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./favicons/favicon.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

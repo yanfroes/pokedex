@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1976d2">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Pokedex">
+
+  <link rel="icon" href="./favicons/favicon.png">
+  <link rel="apple-touch-icon" href="./favicons/pokeball.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./script.js"></script>
+
+  <title>Pokédex</title>
+</head>
+<body>
+  <div class="pokedex-pwa-splash" id="pokedex-pwa-splash" aria-hidden="true">
+    <img src="./favicons/pokeball.png" alt="Pokeball" class="pokedex-pwa-splash-image">
+  </div>
+
+  <main class="pokedex-shell">
+    <section class="pokedex-controls" aria-label="Language selector" hidden>
+      <button class="pokedex-toggle pokedex-toggle-pt" type="button" data-language="pt">
+        <span class="pokedex-toggle-flag" aria-hidden="true">🇧🇷</span>
+        <span class="pokedex-toggle-text">Português</span>
+      </button>
+      <button class="pokedex-toggle pokedex-toggle-en" type="button" data-language="en">
+        <span class="pokedex-toggle-flag" aria-hidden="true">🇺🇸</span>
+        <span class="pokedex-toggle-text">English</span>
+      </button>
+    </section>
+
+    <section class="pokedex-book">
+      <section class="pokedex-left-panel" aria-label="Left Pokedex panel">
+        <img src="#" alt="pokemon" class="pokedex-image">
+
+        <h1 class="pokedex-data">
+          <span class="pokedex-number"></span>
+          <span class="pokedex-separator">-</span>
+          <span class="pokedex-name"></span>
+        </h1>
+
+        <form class="pokedex-form">
+          <input
+            type="search"
+            class="pokedex-search-input"
+            placeholder="Name or Number"
+            required
+          />
+        </form>
+
+        <div class="pokedex-buttons">
+          <button class="pokedex-button pokedex-button-prev" type="button">Prev &lt;</button>
+          <button class="pokedex-button pokedex-button-next" type="button">Next &gt;</button>
+        </div>
+
+        <img src="./images/left-pokedex.png" alt="left pokedex" class="pokedex-device pokedex-device-left">
+      </section>
+
+      <section class="pokedex-right-panel" aria-label="Right Pokedex panel">
+        <img src="./images/right-pokedex.png" alt="right pokedex" class="pokedex-device pokedex-device-right">
+      </section>
+    </section>
+  </main>
+</body>
+</html>
