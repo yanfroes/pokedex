@@ -71,5 +71,6 @@ A bilingual Pokédex web app (Brazilian Portuguese + English) with PWA support, 
    - clear description
    - screenshots for UI changes
    - no unrelated changes
+   - for audio, we have 1-80 in English and 1-117 + 150/151 in Portuguese.
 
 - This project is available as open source under the terms of the [MIT License](https://opensource.org/license/MIT).
