@@ -11,8 +11,29 @@
   <link rel="icon" href="./favicons/favicon.png">
   <link rel="apple-touch-icon" href="./favicons/pokeball.png">
   <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800&display=swap">
   <link rel="stylesheet" href="./style.css">
   <script defer src="./script.js"></script>
+
+  <style>
+    .pokedex-pwa-splash {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: grid;
+      place-items: center;
+      background: #1976d2;
+    }
+    .pokedex-pwa-splash-image {
+      width: 128px;
+      max-width: 128px;
+    }
+    .pokedex-pwa-splash-hidden {
+      display: none;
+    }
+  </style>
 
   <title>Pokédex</title>
 </head>

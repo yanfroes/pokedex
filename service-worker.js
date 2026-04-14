@@ -1,5 +1,5 @@
-const CACHE_NAME = 'pokedex-static-v3';
-const RUNTIME_CACHE_NAME = 'pokedex-runtime-v3';
+const CACHE_NAME = 'pokedex-static-v4';
+const RUNTIME_CACHE_NAME = 'pokedex-runtime-v4';
 
 const KANTO_SPRITE_ASSETS = Array.from({ length: 151 }, (_, index) => {
   const id = String(index + 1).padStart(3, '0');
@@ -56,11 +56,13 @@ self.addEventListener('fetch', (event) => {
           return cachedResponse;
         }
 
-        return fetch(request).then((networkResponse) => {
-          const clonedResponse = networkResponse.clone();
-          caches.open(RUNTIME_CACHE_NAME).then((cache) => cache.put(request, clonedResponse));
-          return networkResponse;
-        });
+        return fetch(request)
+          .then((networkResponse) => {
+            const clonedResponse = networkResponse.clone();
+            caches.open(RUNTIME_CACHE_NAME).then((cache) => cache.put(request, clonedResponse));
+            return networkResponse;
+          })
+          .catch(() => caches.match(request));
       })
     );
     return;
