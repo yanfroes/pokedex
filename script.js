@@ -17,7 +17,7 @@ const POKE_API_BASE_URL = 'https://pokeapi.co/api/v2/pokemon/';
 const LOCAL_KANTO_DATA_URL = './data/kanto-151.json';
 const LOCAL_KANTO_LIMIT = 151;
 
-// UI translations.
+// UI translations in portuguese and english.
 const translations = {
   en: {
     prev: 'Prev <',
