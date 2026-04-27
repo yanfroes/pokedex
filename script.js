@@ -4,6 +4,7 @@ const pokedexNumber = document.querySelector('.pokedex-number');
 const pokedexImage = document.querySelector('.pokedex-image');
 const pokedexForm = document.querySelector('.pokedex-form');
 const pokedexInput = document.querySelector('.pokedex-search-input');
+const pokedexLeftPanel = document.querySelector('.pokedex-left-panel');
 const pokedexPrevButton = document.querySelector('.pokedex-button-prev');
 const pokedexNextButton = document.querySelector('.pokedex-button-next');
 const pokedexLanguageButtons = document.querySelectorAll('.pokedex-toggle');
@@ -54,6 +55,10 @@ let hasTriedLoadingLocalKantoData = false;
 
 // Reuse one audio element to avoid creating multiple players.
 pokedexAudio.preload = 'none';
+
+const setAudioPlaybackState = (isPlaying) => {
+  pokedexLeftPanel?.classList.toggle('pokedex-audio-playing', isPlaying);
+};
 
 const getTranslation = (key) => translations[currentLanguage][key] || '';
 const normalizePokemonQuery = (value) => String(value).trim().toLowerCase();
@@ -200,6 +205,7 @@ const initializePokemonLimit = async () => {
 
 const stopPokemonAudio = () => {
   // Reset source and playback position before trying next candidate audio.
+  setAudioPlaybackState(false);
   pokedexAudio.pause();
   pokedexAudio.currentTime = 0;
   pokedexAudio.removeAttribute('src');
@@ -219,6 +225,8 @@ const playPokemonAudio = async (pokemonId) => {
     `./audios/${fallbackAudioFolder}/default-${fallbackAudioFolder}.mp3`
   ];
 
+  setAudioPlaybackState(false);
+
   for (const audioPath of audioCandidates) {
     try {
       if (pokedexAudio.getAttribute('src') !== audioPath) {
@@ -227,6 +235,7 @@ const playPokemonAudio = async (pokemonId) => {
       await pokedexAudio.play();
       return;
     } catch {
+      setAudioPlaybackState(false);
       // Continue trying candidates until one succeeds.
     }
   }
@@ -384,6 +393,13 @@ for (const languageButton of pokedexLanguageButtons) {
     applyLanguage(nextLanguage);
   });
 }
+
+// Keep the PNG light overlay synchronized with actual audio playback.
+pokedexAudio.addEventListener('playing', () => setAudioPlaybackState(true));
+pokedexAudio.addEventListener('pause', () => setAudioPlaybackState(false));
+pokedexAudio.addEventListener('ended', () => setAudioPlaybackState(false));
+pokedexAudio.addEventListener('emptied', () => setAudioPlaybackState(false));
+pokedexAudio.addEventListener('error', () => setAudioPlaybackState(false));
 
 // Keyboard navigation handler (when not typing in search input).
 document.addEventListener('keydown', (event) => {
